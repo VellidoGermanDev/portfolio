@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "live-server": "^1.2.2"
+  },
+  "name": "portfolio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

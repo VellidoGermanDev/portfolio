@@ -1,0 +1,65 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+
+  --first-color: #131313;
+  --second-color: #202020 ;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 3rem 0 0 0;
+  font-family: var(--poppins);
+  font-size: 0.938rem;
+  background-color: black;
+  color: white;
+}
+h1, h2, p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---- */
+.section-title {
+  position: relative;
+  font-size: 1.25rem;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* ***************  Cursor Circle ********************* */
+
+.circle {
+  position: absolute;
+  border: solid 3px white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Agregado para hacer que el borde sea redondeado */
+  background-color: black; /* Puedes cambiar el color según tus preferencias */
+  z-index: 999;
+  pointer-events: none;
+}

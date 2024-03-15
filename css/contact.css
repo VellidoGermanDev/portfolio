@@ -1,0 +1,71 @@
+.contact__title {
+  margin-bottom: 1rem;
+}
+.contact__text {
+  row-gap: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.contact__container {
+  justify-self: center;
+  background-color: var(--first-color);
+  padding-top: 2em;
+  border-radius: 12px;
+  animation: glowEffect 1s infinite; /* Aplica la animación al pasar el ratón sobre el elemento */
+}
+
+.contact__email,
+.contact__phone,
+.contact__map {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.contact__email-content, .contact__phone-content, .contact__map-content{
+  font-size: 1.5rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  color: white;
+}
+.icon-social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1rem;
+}
+.icon-contact {
+  font-size: 3rem;
+  color: white;
+}
+.icon-contact:hover {
+  -webkit-transform: scale(1.20);
+  transform:scale(1.20);
+  -webkit-transition: -webkit-transform .088s,box-shadow .088s;
+  transition: transform .088s,box-shadow .088s;
+  z-index: 1;
+}
+
+@keyframes glowEffect {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Inicio del resplandor */
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1); /* Punto medio del resplandor */
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Fin del resplandor */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact__email-content, .contact__phone-content, .contact__map-content{
+    font-size: 4vw;
+  }
+  .icon-contact{
+    font-size: 5vw;
+    margin-bottom: 10px;
+  }
+}
