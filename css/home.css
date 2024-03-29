@@ -50,7 +50,13 @@
     font-size: 14vw;
   }
   #subtitle__home{
-    font-size: 5vw;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #subtitle__home{
+    font-size: 20px;
   }
 }
 
@@ -207,7 +213,7 @@
 
 .animation > div > div {
   padding: 0.25rem 0.75rem;
-  height:2.81rem;
+  height: 2.81rem;
   margin-bottom: 2.81rem;
   display:inline-block;
   border-radius: 12px;

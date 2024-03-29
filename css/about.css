@@ -127,3 +127,12 @@
     font-size: clamp(8px, 2vw, 12px);
   }
 }
+
+@media screen and (max-width: 410px) {
+  .about__letter {
+    font-size: 2vw;
+  }
+  .about__container {
+    padding: 1em;
+  }
+}

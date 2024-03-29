@@ -39,15 +39,3 @@
     object-fit: contain;
   }
 }
-/* Skills */
-@media screen and (min-width: 768px) { 
-  .contact__email,
-  .contact__phone,
-  .contact__map {
-    justify-content: center;
-    padding-bottom: 0.5rem;
-  }
-  .icon-social {
-    padding-bottom: 1rem;
-  }
-}
